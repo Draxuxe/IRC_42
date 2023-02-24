@@ -1,0 +1,23 @@
+IRC
+
+Weechat 
+
+/server add <NAME SRV> <IP/PORT>
+/set irc.server.<NAME SRV>.username mon_nouveau_nom
+/set irc.server.<NAME SRV> .nicks nicks
+/connect <NOM SRV> -password=<PWD>
+
+/changer de channel
+/buffer *<Num Channel>
+/Page up Page Down
+
+BONUS
+
+BOT
+./ircbot [IP] [PORT] [PASS] [BOTNAME]
+
+SEND FILES
+/query <target>
+/dcc send <target> <path/to/fichier>
+
+/set xfer.file.download_path <path/you/want>
